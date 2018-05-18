@@ -96,7 +96,7 @@ To test if everything is working, send an email from your email account to examp
 The local-part (i.e. anything before @) can be any word or combination because all email for the domain or subdomain will be processed.
 {% endinfo %}
 
-You can check the [Activity Feed](https://app.sendgrid.com/email_activity?) from your SendGrid dashboard to see if incoming mail was parsed. For more help, see [Debugging a Webhook]({{root_url}}/API_Reference/Webhooks/debug.html).
+ For help, see [Debugging a Webhook]({{root_url}}/API_Reference/Webhooks/debug.html).
 
 {% warning %}
 Remember to direct your incoming email to your hostname (e.g. example@example.com). If you do not, your incoming email will not be parsed.
